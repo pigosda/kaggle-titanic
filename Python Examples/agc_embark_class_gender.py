@@ -3,7 +3,7 @@
 # AGC 2013
 # 
 # 
-# Here Will will run generate predictions of who survived and who did not
+# Here We will generate predictions of who survived and who did not
 # from our basic Least Squares Regression model.
 # Our Formula is :
 # survived_prediction = C + pclass + sex + age + sibsp  + embarked
@@ -18,7 +18,7 @@ from pasty import dmatrices
 
 # declare necessary variables
 data = []       # a container to hold our training data in.
-test_data = []  # a continer to hold our test data in. 
+test_data = []  # a container to hold our test data in. 
 x =  0          # a container for an iterator later on 
 
 with open('train.csv', 'rb') as f: # deals with opening and closing
